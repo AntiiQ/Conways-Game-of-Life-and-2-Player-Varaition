@@ -45,7 +45,7 @@ This game follows all Conway's Game of Life standard rules:
 4. Any dead cell with exactly three live neighbours becomes a live cell.
 
 Hover these rules are added to convert to the 2 player medium:
-1. Any cell with 2 live neighbours of one colour, and another 1 live neighbours of the other colour, will become a live cell of the former color
+1. Any cell with 2 live neighbours of one colour, and another 1 live neighbours of the other colour, will become a live cell of the former colour
 2. Any live cell with only 2 live neighbours of different colours will have a 50/50 chance of changing colours.
 
 The implementation has much repeated code, especially in the player turns and drawing category, due to me rushing when developing this. If I were to work on this further, this would be the first priority.
