@@ -27,7 +27,8 @@ A few user inputs are implemented
 - BACKSPACE: Turns off all the cells
 
 #2 Player Variation of Conway's Game of Life
-This is a simple game created in a rush over a few hours. It required 2 players to act in turns.
+
+This is a simple game created in a rush over a few hours. It requires 2 players to act in turns.
 
 In the first turn both players are allowed to place 5 cells anywhere in the grid as long as it doesn't overwrite the other's cells.
 
