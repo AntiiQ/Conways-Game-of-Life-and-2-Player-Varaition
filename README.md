@@ -21,7 +21,9 @@ A few user inputs are implemented
 
 - SPACE BAR: Pause the simulation
 - W: Progress the simulation by 1 iteration while it is paused
-
+  
+- LEFT CLICK: Turn on the cell that the mouse points to.
+- MIDDLE CLICK: Turn off the cell that the mouse points to.
 - E: Turn on the border cells
 - ENTER: Randomises all the cells
 - BACKSPACE: Turns off all the cells
