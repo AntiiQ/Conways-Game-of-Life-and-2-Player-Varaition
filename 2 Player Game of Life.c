@@ -283,8 +283,6 @@ void ThreadedIteration(void){
 }
 
 
-
-// Add this to handle zoom/pan input:
 void handleZoomAndPan(void) {
     // Zoom controls
     float mouseWheel = GetMouseWheelMove();
@@ -308,7 +306,7 @@ void handleZoomAndPan(void) {
         float minZoom = fminf(
             (float)GetScreenWidth() / (HOR_CELLS * cellSize),
             (float)GetScreenHeight() / (VER_CELLS * cellSize)
-        ) * 1; //0.9f; // 90% of the size that would fit the entire grid
+        ) * 1; 
         
         // Upper limit:
         float maxZoom = 500.0f / cellSize;
